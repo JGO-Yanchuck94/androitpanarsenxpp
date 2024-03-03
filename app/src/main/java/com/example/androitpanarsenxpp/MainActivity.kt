@@ -19,8 +19,18 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         fun klikniecie(view: View) {
-            var displaytext : TextView = findViewById(R.id.textView2)
+            var displaytext: TextView = findViewById(R.id.textView2)
             displaytext.setText("Hello World")
+        }
+
+        fun klik2(view: View) {
+            var displaytext: TextView = findViewById(R.id.textView2)
+            displaytext.setText("Piotr Janczak")
+        }
+
+        fun klik3(view: View) {
+            var displaytext: TextView = findViewById(R.id.textView2)
+            displaytext.setText("Goodbye")
         }
     }
 }
